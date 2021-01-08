@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify the login credantial",
+        "description": "",
+        "id": "login;verify-the-login-credantial",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10034306600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Users enter the Website",
+            "match": {
+              "location": "Step.users_enter_the_Website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2432442900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the creadtinal",
+            "match": {
+              "location": "Step.user_enters_the_creadtinal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30096600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Homepage is displayed",
+            "match": {
+              "location": "Step.homepage_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file.feature"
+  }
+]
