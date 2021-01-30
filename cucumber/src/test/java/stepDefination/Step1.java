@@ -28,19 +28,19 @@ public class Step1 {
 	@Given("^given(\\d+) printed$")
 	public void given_printed(int arg1) throws Throwable {
 	
-		  System.out.println(arg1);
+		  System.out.println("hi");
 	}
 
 	@When("^when(\\d+) printed$")
 	public void when_printed(int arg1) throws Throwable {
 	    
-		System.out.println(arg1);
+		System.out.println("hi");
 	}
 
 	@Then("^then(\\d+) printed$")
 	public void then_printed(int arg1) throws Throwable {
 	
-		System.out.println(arg1);
+		System.out.println("hi");
 	
 	}
 	

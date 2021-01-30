@@ -18,7 +18,7 @@ Then Details are saved
 
 Scenario: Create DataTable using List
 
-Given Users enter the details without columns
+Given Users enter the details without columns 
 |samarthak|1234|sam@hotmail.com|7777|
 |demo|234|demo@gmail.com|7070|
 

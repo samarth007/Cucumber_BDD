@@ -12,14 +12,14 @@ public class Hook {
 		System.out.println(sc.getName());
 	}
 	
-	@After("@Smoke")
+	@After("@Regression")
 	public void after(Scenario sc) {
 	   System.out.println("after");
 	   System.out.println(sc.getName());
 	}
 	
 	
-	@Before()
+/*	@Before()
 	public void before_1(Scenario sc) {
 		System.out.println(sc.getName());
 		
@@ -28,6 +28,6 @@ public class Hook {
 	@After()
 	public void after_1(Scenario sc) {
 		System.out.println(sc.getName());
-	}
+	}*/
 	
 }
